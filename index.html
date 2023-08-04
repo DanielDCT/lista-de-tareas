@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.o">
+    <meta charset="UTF-8">
+    <meta property="og:title" content="Lista de Tareas | Daniel David Calderón Tinjaca">
+    <meta name="author" lang="es" content="Daniel David Calderón Tinjaca">
+    <meta name="description" content="Organiza tareas con estilo en esta aplicación web minimalista. Agrega y elimina fácilmente. Gestiona tu productividad con simplicidad">
+    <meta name="copyright" content="Copyright Daniel David Calderón Tinjaca">
+    <meta name="language" content="es">
+    <meta name="robots" content="index, follow">
+    <link rel="shortcut icon" href="icon/icon.png" type="image/png"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Lista de Tareas</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Tareas</h1>
+        <!-- Formulario para agregar tareas -->
+        <form id="task-form">
+            <input type="text" id="task-input" placeholder="Ingrese una tarea..." autocomplete="off"/>
+            <button type="submit" class="add-btn"><i class="fas fa-plus"></i></button>
+        </form>
+        <!-- Lista para mostrar las tareas -->
+        <ul id="task-list"></ul>
+    </div>
+    <script src="js/function.js"></script>
+</body>
+</html>
